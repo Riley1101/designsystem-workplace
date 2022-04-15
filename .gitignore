@@ -8,8 +8,8 @@ node_modules
 # testing
 coverage
 .vscode
-.package-lock.json
-.yarn.lock
+package-lock.json
+yarn.lock
 yarn-error.log
 .env
 
@@ -36,3 +36,4 @@ yarn-error.log*
 
 # turbo
 .turbo
+yarn-error.log
