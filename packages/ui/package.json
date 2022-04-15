@@ -8,7 +8,7 @@
   "scripts": {
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "build": "build-storybook",
     "dev": "concurrently \"rollup -w -c\" \"start-storybook -p 6006\""
   },
   "devDependencies": {
