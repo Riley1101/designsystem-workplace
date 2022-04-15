@@ -1,6 +1,6 @@
-# Turborepo starter
+# What is this repo ?
 
-This is an official Yarn v1 starter turborepo.
+This is a monorepo for easier and faster developer experience while building a design system.
 
 ## What's inside?
 
@@ -8,9 +8,8 @@ This turborepo uses [Yarn](https://classic.yarnpkg.com/lang/en/) as a package ma
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org) app
-- `web`: another [Next.js](https://nextjs.org) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
+- `web`: [Next.js](https://nextjs.org) application for testing the library.
+- `ui`: React component library with storybook integrated
 - `config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
@@ -44,6 +43,14 @@ To develop all apps and packages, run the following command:
 ```
 cd my-turborepo
 yarn run dev
+```
+### Testing
+
+To develop all apps and packages, run the following command:
+
+```
+cd my-turborepo
+yarn run test
 ```
 
 ### Remote Caching
